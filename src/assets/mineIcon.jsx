@@ -1,0 +1,3 @@
+export const MineIcon = () => {
+    <svg width="800px" height="800px" viewBox="0 0 512 512" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><defs></defs><title /><path className="cls-1" d="M277.43,244.14a77.25,77.25,0,1,1-54.63-30.61" /><path className="cls-1" d="M221.94,215.05l14.49-25.85c1-1.75,14,3.69,29.09,12.14s26.52,16.73,25.54,18.47l-14.49,25.86c-1,1.74-14-3.69-29.09-12.15S221,216.8,221.94,215.05Z" /><path className="cls-1" d="M265.27,198.51a39.17,39.17,0,0,1,53.32-15" /><line className="cls-2" x1="327.95" x2="334.58" y1="156.14" y2="144.31" /><line className="cls-2" x1="343.99" x2="373.66" y1="182.62" y2="181.75" /><line className="cls-2" x1="329.53" x2="337.47" y1="210" y2="222.4" /></svg>
+}

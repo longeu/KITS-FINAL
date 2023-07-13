@@ -1,0 +1,39 @@
+.image-bg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* color: #fff; */
+    padding-bottom: 40px;
+}
+
+.board {
+    margin: auto;
+    display: flex;
+    border: 1px solid rgb(187, 183, 183);
+    width: fit-content;
+}
+
+.checkboard {
+    border-bottom: grey;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+}
+
+.input-board {
+    display: grid;
+    margin: auto;
+    width: 450px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.color-pick {
+    width: auto;
+}
