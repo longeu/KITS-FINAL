@@ -68,7 +68,6 @@ export const Pomodoro = () => {
   function changePomodoro() {
     if (timeRemaining == 0) {
       if (pomodoroOption === "pomodoro") {
-        console.log("abc")
         choosePomodoro("shortBrake")
       }
       if (pomodoroOption === "shortBrake" || pomodoroOption === "longBrake") {

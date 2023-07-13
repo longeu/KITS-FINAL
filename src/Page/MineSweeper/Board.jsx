@@ -1,5 +1,4 @@
 export const Board = ({ board, handleCellClick }) => {
-    console.log("board", board)
     return board.map((row, rowIndex) => (
         <div className="ms-row" key={rowIndex}>
             {row.map((cell, colIndex) => (
