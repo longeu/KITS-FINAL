@@ -102,7 +102,7 @@ export const Pomodoro = () => {
         <div className='content-body-container'>
           <div className='content-container'>
             <div className='content-container-header'>
-              <Button className="button-title" onClick={() => choosePomodoro("pomodoro")} colorPrimaryBorderHover={"white"}
+              <Button className="button-title" onClick={() => choosePomodoro("pomodoro")}
                 style={pomodoroOption == "pomodoro" ? activePomoColor : ""}
               >
                 <span>Pomodoro</span>
