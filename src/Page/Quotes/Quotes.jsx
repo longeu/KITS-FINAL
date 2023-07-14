@@ -2,13 +2,14 @@ import { Col } from "antd"
 import { QuotesIcon } from "../../assets/quotesIcon"
 import { useEffect, useState } from "react"
 import baseApi from "../../api/baseApi";
-
+import "./Quotes.css"
 
 export const Quotes = () => {
 
     const [author, setAuthor] = useState("");
     const [quotes, setQuotes] = useState("");
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     async function fetchQuotes() {
         const url = "/quote";
 
