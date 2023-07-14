@@ -23,7 +23,7 @@
 }
 
 .input-board {
-    display: grid;
+    /* display: grid; */
     margin: auto;
     width: 450px;
     margin-bottom: 50px;
@@ -34,6 +34,6 @@ h1 {
     text-align: center;
 }
 
-.color-pick {
-    width: auto;
+.input-checkboard {
+    width: 100%;
 }

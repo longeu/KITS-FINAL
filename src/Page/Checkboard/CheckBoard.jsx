@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Row from "./Row";
 import './CheckBoard.css'
-import { Col } from "antd";
+import { Col, Space } from "antd";
 import { ChessIcon } from "../../assets/chessIcon";
 
 
@@ -37,15 +37,16 @@ export const CheckBoard = () => {
             </Col>
             <div className="content-body">
                 <div className="input-board">
-                    <label>Please Enter your number:</label>
-                    <input type="number" value={num} onChange={(e) => onChangeNum(e.target.value)} min={1} max={10}></input>
-                    {/* <button type="button" onClick={() => click()}>Nhập</button> */}
+                    <Space direction={"vertical"} style={{ width: "100%" }}>
+                        <label>Please Enter your number:</label>
+                        <input className="input-checkboard" type="number" value={num} onChange={(e) => onChangeNum(e.target.value)} min={1} max={10}></input>
 
-                    <label>Enter your color even: </label>
-                    <input type="color" className="color-pick" onChange={(e) => onChangeEvenColor(e.target.value)} value={evenColor}></input>
-
-                    <label>Enter your color odd: </label>
-                    <input type="color" className="color-pick" onChange={(e) => onChangeOddColor(e.target.value)} value={oddColor}></input>
+                        {/* <button type="button" onClick={() => click()}>Nhập</button> */}
+                        <label>Enter your color even: </label>
+                        <input type="color" className="input-checkboard" onChange={(e) => onChangeEvenColor(e.target.value)} value={evenColor}></input>
+                        <label>Enter your color odd: </label>
+                        <input type="color" className="input-checkboard" onChange={(e) => onChangeOddColor(e.target.value)} value={oddColor}></input>
+                    </Space>
                 </div>
                 <div className="board" onClick={() => changeColor()}>
                     {rows.map((idx) => {

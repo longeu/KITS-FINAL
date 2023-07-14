@@ -12,6 +12,7 @@ import { PomoIcon } from '../../assets/pomoIcon';
 import { BomIcon } from '../../assets/bomIcon';
 import { CalculatorIcon } from "../../assets/calculatorIcon";
 import { ThreeDotIcon } from "../../assets/threeDotIcon";
+import { QuotesIcon } from "../../assets/quotesIcon";
 
 const menuItems = [
     {
@@ -33,6 +34,11 @@ const menuItems = [
         key: "/pomodoro",
         label: "Pomodoro",
         icon: <PomoIcon />,
+    },
+    {
+        key: "/quotes",
+        label: "Quotes",
+        icon: <QuotesIcon />,
     },
 ]
 export const SiderBar = () => {
